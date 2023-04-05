@@ -39,7 +39,7 @@ export default function Home() {
 
             {websites.map((website) => (
               <div className="flex">
-                <WebsiteCard name={website.name} url={website.url} description={website.description} icon={website.icon} />
+                <WebsiteCard key={website.name} name={website.name} url={website.url} description={website.description} icon={website.icon} />
               </div>
             ))}
 
