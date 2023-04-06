@@ -27,8 +27,8 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>Ai Websites</title>
-        <meta name="description" content="Ai Website Hub" />
+        <title>Websites Hub</title>
+        <meta name="description" content="Website Hubs" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -36,12 +36,12 @@ export default function Home() {
       <div className="bg-pampas-50 h-screen bg-gradient-to-b">
 
         <div className='flex flex-col' >
-          <h1 className='flex text-4xl w-full text-westar-950 my-5 justify-center'>Link Hub</h1>
+          <h1 className='flex justify-center w-full text-4xl font-bold text-westar-950 my-5 '>Link Hub</h1>
 
 
           {Websites.map((websiteArray, index) => (
             <div key={index}>
-              <h1 className='flex w-full bg-westar-950 py-2 text-pampas-50 text-3xl justify-center'>{WebsiteTitle[index]}</h1>
+              <h1 className='flex justify-center w-full bg-westar-950 py-2 text-pampas-50 text-3xl font-semibold'>{WebsiteTitle[index]}</h1>
               <div className='grid grid-cols-3 gap-4 mb-20 mt-4'>
                 {websiteArray.map((website, index) => (
                   <div key={website.url} className="flex">
