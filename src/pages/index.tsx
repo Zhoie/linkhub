@@ -20,8 +20,8 @@ const inter = Inter({ subsets: ['latin'] })
 export default function Home() {
 
   // {add websites to json file}
-  const aiWebsites: Websites[] = require('./api/aiWebsites.json')
-  const designWebsites: Websites[] = require('./api/designWebsites.json')
+  const aiWebsites: Websites[] = require('./api/websites/aiWebsites.json')
+  const designWebsites: Websites[] = require('./api/websites/designWebsites.json')
   const Websites = [aiWebsites, designWebsites]
   const WebsiteTitle = ["Ai", "Design"]
   return (
@@ -37,7 +37,6 @@ export default function Home() {
 
         <div className='flex flex-col' >
           <h1 className='flex justify-center w-full text-4xl font-bold text-westar-950 my-5 '>Link Hub</h1>
-
 
           {Websites.map((websiteArray, index) => (
             <div key={index}>
