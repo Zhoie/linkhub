@@ -52,9 +52,9 @@ export default function Home() {
 
                   <div key={index} className="flex">
 
-                    <div key={website.url} className="flex">
+                    {/* <div key={website.url} className="flex"> */}
                       <WebsiteCard key={website.url} name={website.name} url={website.url} description={website.description} icon={website.icon} />
-                    </div>
+                    {/* </div> */}
                   </div>
                 ))}
               </div>
