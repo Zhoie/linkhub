@@ -41,7 +41,7 @@ export default function Home() {
           {Websites.map((websiteArray, index) => (
             <div key={index}>
               <h1 className='flex justify-center w-full bg-westar-950 py-2 text-pampas-50 text-3xl font-semibold'>{WebsiteTitle[index]}</h1>
-              <div className='grid grid-cols-3 gap-4 mb-20 mt-4'>
+              <div className='grid grid-cols-3 mb-20 mt-4'>
                 {websiteArray.map((website, index) => (
                   <div key={website.url} className="flex">
                     <WebsiteCard key={website.url} name={website.name} url={website.url} description={website.description} icon={website.icon} />
