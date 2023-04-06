@@ -18,7 +18,7 @@ export default function Websistecard({ name, url, description, icon }: Websites)
 
   return (
     <>
-      <div onClick={handleClick} className=" flex relative w-[80%] h-12 border-westar-950 border-4 my-2 mx-10 cursor-pointer hover:bg-westar-950 duration-300 ">
+      <div onClick={handleClick} className=" flex relative w-[80%] border-westar-950 border-4 my-2 mx-10 cursor-pointer hover:bg-westar-950 duration-300 ">
 
           <h1 className='flex w-full h-full text-2xl text-westar-950 hover:text-pampas-50 static justify-center pt-1'>{name}</h1>
    
