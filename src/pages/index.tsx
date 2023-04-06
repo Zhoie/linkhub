@@ -19,7 +19,7 @@ const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
-  const websites: Websites[] = require('./api/websites.json')
+  const aiWebsites: Websites[] = require('./api/aiWebsites.json')
 
   return (
     <>
@@ -37,11 +37,14 @@ export default function Home() {
 
           <div className='grid grid-cols-3 gap-4 mt-10'>
 
-            {websites.map((website) => (
+{/* website for Ai tools */}
+            {aiWebsites.map((website) => (
               <div key ={website.url} className="flex">
                 <WebsiteCard key={website.url} name={website.name} url={website.url} description={website.description} icon={website.icon} />
               </div>
             ))}
+
+            {/* website for html css javascript typescript tools */}
 
           </div>
         </div>
