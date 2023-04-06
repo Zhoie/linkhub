@@ -22,7 +22,6 @@ export default function Websistecard({ name, url, description, icon }: Websites)
 
           <h1 className='flex w-full h-full text-2xl text-westar-950 hover:text-pampas-50 static justify-center pt-1'>{name}</h1>
    
-        
       </div>
     </>
   )
