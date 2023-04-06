@@ -1,0 +1,62 @@
+{
+  "Ai": [
+    {
+      "name": "POE - chatGPT",
+      "url": "https://poe.com/ChatGPT",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "New Bing",
+      "url": "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Image Create",
+      "url": "https://bing.com/create",
+      "description": "",
+      "icon": ""
+    }
+  ],
+  "Design": [
+    {
+      "name": "UiColor",
+      "url": "https://uicolors.app",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "React Icons",
+      "url": "https://react-icons.github.io/react-icons/",
+      "description": "",
+      "icon": ""
+    }
+  ],
+  "Docs": [
+    {
+      "name": "Next.js",
+      "url": "https://nextjs.org/docs/routing/introduction",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Typescript",
+      "url": "https://www.typescriptlang.org/docs/",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Tailwind",
+      "url": "https://tailwindcss.com/docs/aspect-ratio",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "Mozilla",
+      "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+      "description": "",
+      "icon": ""
+    }
+  ]
+}

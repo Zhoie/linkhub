@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Next.js",
+        "url": "https://nextjs.org/docs/routing/introduction",
+        "description": "",
+        "icon": ""
+    },
+    {
+        "name": "Typescript",
+        "url": "https://www.typescriptlang.org/docs/",
+        "description": "",
+        "icon": ""
+    },
+    {
+        "name": "Tailwind",
+        "url": "https://tailwindcss.com/docs/aspect-ratio",
+        "description": "",
+        "icon": ""
+    },
+    {
+        "name": "Mozilla",
+        "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
+        "description": "",
+        "icon": ""
+    }
+]
+
