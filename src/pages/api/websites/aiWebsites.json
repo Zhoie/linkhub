@@ -5,6 +5,14 @@
     "description": "",
     "icon": ""
   },
+  {
+    "name": "New Bing",
+    "url": "https://www.bing.com/search?q=Bing+AI&showconv=1&FORM=hpcodx",
+    "description": "",
+    "icon": ""
+  },
+
+  
 
   {
     "name": "Image Create",
@@ -13,5 +21,7 @@
     "icon": ""
     
   }
+
+
   
 ]
