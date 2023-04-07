@@ -64,5 +64,14 @@
       "description": "",
       "icon": ""
     }
+  ],
+  "Games": [
+    {
+      "name": "Melvor Idle",
+      "url": "https://melvoridle.com",
+      "description": "",
+      "icon": ""
+    }
+
   ]
 }
