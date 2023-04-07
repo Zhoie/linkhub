@@ -1,7 +1,13 @@
 {
   "Ai": [
     {
-      "name": "POE - chatGPT",
+      "name": "chatGPT",
+      "url": " https://chat.openai.com/chat",
+      "description": "",
+      "icon": ""
+    },
+    {
+      "name": "POE",
       "url": "https://poe.com/ChatGPT",
       "description": "",
       "icon": ""
@@ -21,7 +27,7 @@
   ],
   "Design": [
     {
-      "name": "UiColor",
+      "name": "Ui Color",
       "url": "https://uicolors.app",
       "description": "",
       "icon": ""

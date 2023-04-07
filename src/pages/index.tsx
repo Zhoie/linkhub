@@ -1,11 +1,6 @@
 import Head from 'next/head'
-import Image from 'next/image'
-
-import { Inter } from 'next/font/google'
+// import { Inter } from 'next/font/google'
 import WebsiteCard from '@/components/WebsiteCard';
-import { describe } from 'node:test';
-
-import { GetStaticProps } from 'next'
 // import styles from '@/styles/Home.module.css'
 
 interface Websites {
@@ -14,9 +9,6 @@ interface Websites {
   description: string;
   icon: string;
 }
-
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
 
