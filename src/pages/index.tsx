@@ -1,7 +1,18 @@
 import Head from 'next/head'
 // import { Inter } from 'next/font/google'
 import WebsiteCard from '@/components/WebsiteCard';
+import WebsiteHub from '@/components/WebsiteHub';
 // import styles from '@/styles/Home.module.css'
+
+
+// export default function Home() {
+//   return (
+//     <div>
+//     <WebsiteHub />
+//     </div>
+//   )
+// }
+
 
 interface Websites {
   name: string;
@@ -9,19 +20,12 @@ interface Websites {
   description: string;
   icon: string;
 }
-
 export default function Home() {
 
   const WebsitesArray: [Websites[]] = require('./api/websites.json')
 
   return (
     <>
-      <Head>
-        <title>Websites Hub</title>
-        <meta name="description" content="Website Hubs" />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
 
       <div className="bg-pampas-50 h-screen bg-gradient-to-b">
         <div className='flex flex-col' >

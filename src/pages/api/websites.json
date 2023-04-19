@@ -69,6 +69,12 @@
       "url": "https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics",
       "description": "",
       "icon": ""
+    },
+    {
+      "name": "Firebase",
+      "url": "https://firebase.google.com/docs",
+      "description": "",
+      "icon": ""
     }
   ],
   "Games": [
