@@ -1,7 +1,5 @@
-import Head from 'next/head'
 // import { Inter } from 'next/font/google'
 import WebsiteCard from '@/components/WebsiteCard';
-import WebsiteHub from '@/components/WebsiteHub';
 // import styles from '@/styles/Home.module.css'
 
 
@@ -22,7 +20,7 @@ interface Websites {
 }
 export default function Home() {
 
-  const WebsitesArray: [Websites[]] = require('./api/websites.json')
+  const WebsitesArray: Record<string, Websites[]> = require('./api/websites.json')
 
   return (
     <>

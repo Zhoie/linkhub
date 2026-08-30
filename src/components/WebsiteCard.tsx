@@ -1,6 +1,3 @@
-import Link from 'next/link'
-import Image from 'next/image'
-
 interface Websites {
   name: string;
   url: string;
@@ -8,7 +5,7 @@ interface Websites {
   icon?: string;
 }
 
-export default function Websistecard({ name, url, description, icon }: Websites) {
+export default function WebsiteCard({ name, url }: Websites) {
 
   function handleClick() {
     window.open(url, '_blank')
