@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": ">=20.9.0"
+    "node": "^20.19.0 || ^22.13.0 || >=24"
   },
   "scripts": {
     "dev": "next dev",
@@ -18,7 +18,7 @@
     "@types/node": "26.4.1",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
-    "eslint": "9.39.2",
+    "eslint": "10.10.0",
     "eslint-config-next": "16.3.4",
     "next": "16.3.0",
     "react": "19.2.8",
@@ -28,6 +28,7 @@
     "typescript": "5.9.3"
   },
   "devDependencies": {
+    "@eslint/compat": "2.1.1",
     "autoprefixer": "^10.5.4",
     "json-loader": "^0.5.7",
     "postcss": "^8.4.21",
