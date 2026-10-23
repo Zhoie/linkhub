@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "engines": {
-    "node": "^20.19.0 || ^22.13.0 || >=24"
+    "node": ">=22.23.4 <23"
   },
   "scripts": {
     "dev": "next dev",
@@ -12,15 +12,18 @@
     "lint": "eslint .",
     "typecheck": "tsc --noEmit",
     "test": "node --test tests/*.test.mjs",
-    "ci": "npm run lint && npm run typecheck && npm run test && npm run build"
+    "ci": "npm run lint && npm run typecheck && npm run test && npm run build",
+    "test:security": "node --test scripts/test-braces-security.mjs",
+    "prebuild": "node scripts/check-node-version.mjs && node --test scripts/test-braces-security.mjs",
+    "preinstall": "node scripts/check-node-version.mjs"
   },
   "dependencies": {
     "@types/node": "26.4.1",
     "@types/react": "19.2.18",
     "@types/react-dom": "19.2.5",
     "eslint": "10.10.0",
-    "eslint-config-next": "16.3.4",
-    "next": "16.3.4",
+    "eslint-config-next": "16.4.2",
+    "next": "16.4.2",
     "react": "19.2.8",
     "react-dom": "19.2.8",
     "react-hot-toast": "^2.6.0",
@@ -31,7 +34,12 @@
     "@eslint/compat": "2.1.1",
     "autoprefixer": "^10.5.4",
     "json-loader": "^0.5.7",
-    "postcss": "^8.4.21",
-    "tailwindcss": "^3.3.1"
+    "postcss": "8.5.31",
+    "tailwindcss": "^3.3.1",
+    "braces": "file:./vendor/braces-security/braces-security.tgz"
+  },
+  "overrides": {
+    "postcss-selector-parser": "7.1.7",
+    "braces": "$braces"
   }
 }
